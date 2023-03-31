@@ -1,7 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+import './DataAnalysis.css';
 
-function App() {
+function DataAnalysis() {
   return (
     <div>
   <div>
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default DataAnalysis;
