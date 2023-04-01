@@ -4,7 +4,7 @@ import "./Register.css";
 function Register() {
   return (
     <div className="register-container">
-      <h1>Register</h1>
+      <h1>Sign up for an account</h1>
       <form>
         <div className="form-group">
           <div className="name-inputs">
