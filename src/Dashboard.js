@@ -39,16 +39,22 @@ function Dashboard() {
           </header2>
           <div class="dashboard-container">
             <div class="yellow-panel">
-              <h2>Pending Tasks</h2>
-              <div class="task-list"></div>
+                <h2>Pending Tasks</h2>
+                <div class="task-list">
+                    <!-- add task panels here -->
+                </div>
             </div>
             <div class="yellow-panel">
-              <h2>Current Progress</h2>
-              <div class="progress-list"></div>
+                <h2>Current Progress</h2>
+                <div class="progress-list">
+                    <!-- add progress panels here -->
+                </div>
             </div>
             <div class="green-panel">
-              <h2>Tasks Due Today</h2>
-              <div class="task-list"></div>
+                <h2>Tasks Due Today</h2>
+                <div class="task-list">
+                        <!-- add task panels here -->
+                </div>
             </div>
           </div>
         </div>
