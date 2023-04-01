@@ -2,10 +2,11 @@ import logo from "./logo.svg";
 import DataAnalysis from "./DataAnalysis";
 import Login from "./Login";
 import Register from "./Register";
+import Home from "./Home";
 function App() {
   return (
     <div>
-      <Register />
+      <Home />
     </div>
   );
 }
