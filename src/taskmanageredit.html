@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+	<style>
+	
+	body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: tan;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-links li.active {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .user-info {
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    margin-right: 10px;
+  }
+  
+  .sign-out a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Main Content Styles */
+  .main {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .report-chart {
+    width: 1440px;
+    height: 500px;
+    background-color: lightgray;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chart-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  th, td {
+  padding: 15px;
+  text-align: left;
+}
+  
+  
+  
+  
+	.anybutton {
+       top:93%;
+       left:50%;
+       width:200px;
+       height:40px;
+       position: absolute;
+       }
+	</style>
+	
+	<body>
+	
+	 <div>
+  <div>
+    <div class="sidebar">
+      <div class="logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">User Accounts</a></li>
+        <li class="active"><a href="#">Task Management</a></li>
+        <li><a href="#">Task Tracker</a></li>
+        <li><a href="#">Data Analysis</a></li>
+        <li><a href="#">Dashboard</a></li>
+      </ul>
+      <div class="user-info">
+        <span class="username">John Doe</span>
+        <span class="sign-out"><a href="#">X</a></span>
+      </div>
+    </div>
+	<div class="main">
+		<header>
+			<h1>Projects</h1>
+		</header>
+		<center>
+		
+		 
+		
+		<h2>Ongoing Projects</h2> <!-- header 2 has trouble to align with the table --> 
+			<div class="report-chart">
+				<div class="chart-container">
+					<div class="chart-area">
+		
+
+
+	<table style="50%">
+	<thead>
+<tr>
+  <th> Name of Project </th>
+  <th> Date Started </th>
+  <th> Time Alloted </th>
+  <th> Date Finished </th>
+</tr>
+</thead>
+<tbody>
+            <tr>
+              <td>Project A</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Project B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Project C</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+
+</table>
+		
+		
+          
+		</center>
+		
+      </div>
+	  
+	<center>
+	<!--  <div class="btn-group" style="width:100%"> 
+	  <button style="width:25%">Create</button>
+              </div>
+					</div>
+				</div>
+			</div>
+		</center>-->
+		
+		       <div class="mycenter" id="">
+          <input type="button" class="anybutton" id="myab" value="Create" />
+       </div>
+		
+	</div>
+    <script src="script.js"></script>
+  </div>
+    </div>
+	
+	</body>
+	</html>
